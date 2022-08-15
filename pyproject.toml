@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "actions"
+version = "0.1.0"
+description = ""
+authors = ["Johan Palomino <johanpalomino59@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.1.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+actions = "actions.console:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
